@@ -37,9 +37,11 @@ if (!empty($_GET)) {
 <body>
 
     <form action="" method="GET">
-        <div class="poptrf">
-            <label id="title">Evento</label><br>
+        <div class="event" >
+            <label id="title">Planner</label><br>
         </div>
+
+        <div class="calendario">  
         <label for="day" id="day">Dia: </label>
         <select name="day" id="day">
             <option value="1">1</option>
@@ -76,8 +78,8 @@ if (!empty($_GET)) {
 
         </select>
 
-        <label for="month">Mes:</label>
-        <select name="month" id="title">
+        <label for="month" id="month">Mes:</label>
+        <select name="month" id="mes">
             <option value="Janeiro">Janeiro</option>
             <option value="Fevereiro">Fevereiro</option>
             <option value="Marco">Marco</option>
@@ -112,11 +114,12 @@ if (!empty($_GET)) {
         <div id="container">
             <div id="week">
                 <div class="poptrf">
-                    Tarefa:<input name="nome" id="nome">
-                    Horario:<input name="horario" id="horario">
-                    <input type="submit" value="Adicione uma tarefa">
+                    <h1>Tarefa:</h1><input name="nome" id="nome">
+                    <h2>Horario:</h2><input name="horario" id="horario">
+                    <input type="submit" id="button" value="Adicione uma tarefa">
                 </div>
             </div>
+        </div>
         </div>
     </form>
    
