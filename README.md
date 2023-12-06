@@ -1,0 +1,5 @@
+-Instalar PHP e XAMPP
+-Inicializar o XAMPP
+-Inserir a pasta A3 dentro da pasta XAMPP/htdocs
+-Apertar "Start" no modulo "Apache"
+-Abrir site pelo navegador, colocando "http://localhost/A3/code.php" na barra de navegação
